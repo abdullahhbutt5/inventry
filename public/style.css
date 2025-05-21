@@ -1,0 +1,121 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header, footer {
+  background: #1f1c2c;
+  text-align: center;
+  padding: 1rem;
+  color: #ffb347;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.3);
+}
+
+main {
+  flex: 1;
+  padding: 2rem;
+}
+
+/* Form */
+.form-section {
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form input, .form button {
+  padding: 0.7rem 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.form input {
+  background-color: #fff;
+  color: #333;
+}
+
+.form button {
+  background: #ff7e5f;
+  color: #fff;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form button:hover {
+  background: #feb47b;
+}
+
+/* Table */
+.table-section table {
+  width: 100%;
+  border-collapse: collapse;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.table-section th, .table-section td {
+  padding: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.table-section th {
+  background: #ffb347;
+  color: #333;
+}
+
+.inline-form {
+  display: inline-block;
+}
+
+.inline-form input {
+  width: 100px;
+  margin: 0 2px;
+}
+
+.edit-btn {
+  background: #00c9ff;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.edit-btn:hover {
+  background: #92fe9d;
+}
+
+.delete-btn {
+  background: #ff5e62;
+  color: #fff;
+  border: none;
+  padding: 5px 8px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: 0.3s;
+}
+
+.delete-btn:hover {
+  background: #ff9966;
+}
